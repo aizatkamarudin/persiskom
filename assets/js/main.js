@@ -359,9 +359,6 @@
     /*=============================================
     =            swiper slider activation            =
     =============================================*/
-
-
-            
     var carouselSlider = new Swiper('.hero-slider__container', {
         slidesPerView : 1,
         slidesPerGroup: 1,
@@ -442,7 +439,7 @@
         slidesPerGroup: 1,
         loop: true,
         speed: 1000,
-        autoplay: false,
+        autoplay: true,
         spaceBetween : 30,
         navigation: {
             nextEl: '.swiper-button-next',
@@ -1111,9 +1108,9 @@
     /*=============================================
         showcoupon toggle function
    =============================================*/
-    $('#showcoupon').on('click', function() {
+    $( '#showcoupon' ).on('click', function() {
         $('#checkout-coupon' ).slideToggle(500);
-    }); 
+    });
     $("#chekout-box-2").on("change",function(){
         $(".ship-box-info").slideToggle("100");
     }); 
