@@ -1,0 +1,8 @@
+
+Navbar 
+ - home
+ - Solutions
+ - Industries
+ - Happy Client
+ - About
+ - Contact
