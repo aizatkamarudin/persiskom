@@ -4458,6 +4458,11 @@ ul.footer-widget__horizontal-list li {
   background-image: none;
   background-color: #d2a98e;
 }
+
+.btn--pskm {
+  background-image: none;
+  background-color: #317cae;
+}
 .btn--secondary:hover {
   background-image: none;
   background: #d2a98e;
